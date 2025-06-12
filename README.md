@@ -1,0 +1,1 @@
+render's backend server shuts down after 15min of inactivity, so a workaround is to constantly send a GET request to the backend server, specifically the /ping endpoint to make sure the backend is always up and running
